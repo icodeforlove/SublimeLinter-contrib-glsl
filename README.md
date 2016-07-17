@@ -18,7 +18,8 @@ Before using this plugin, you must ensure that `glslangValidator` is installed o
 
 1. Got to [Kronos GLSL Reference-Compiler](https://www.khronos.org/opengles/sdk/tools/Reference-Compiler/).
     1. Either pick a *binary* to install (currently provided for Windows & Linux) or
-    2. Download the source and compile & install it (currently only option for OSX - but no worries, it comes with CMake and worked out of the box for me)
+    2. Download the source and compile & install it (comes with CMake)
+    3. Brew install glslang (OSX)
 2. Ensure it's in your path, e.g. ```glslangValidator``` in a terminal produces not an error.
 
 ### Linter configuration
